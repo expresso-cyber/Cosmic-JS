@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Cosmic Learning Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <!-- Tween.js for smooth animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/23.1.1/tween.umd.js"></script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div id="ui-layer">
+        <div id="header">
+            <h1>JS COSMIC HUB</h1>
+            <p>Navigate the celestial bodies of JavaScript knowledge</p>
+        </div>
+
+        <div id="instructions">
+            Click a planet to explore its concepts
+        </div>
+
+        <div id="content-panel" class="hidden">
+            <button id="close-btn">&times;</button>
+            <div id="panel-inner">
+                <h2 id="session-title">Session Name</h2>
+                <div id="concepts-container">
+                    <!-- Concepts and Questions will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
